@@ -30,29 +30,32 @@ Before you begin the workshop, you'll need to download the required data files. 
 
 ### Steps to Download the Data
 
-1. **(Optional) Install or Upgrade gdown**
-
-   Ensure you have Python and pip installed, then install or upgrade `gdown` by running:
+1. **Open your Terminal or WSL Terminal (for Windows users).**
+2. **Clone the Workshop Repository**
+   Open your Terminal or WSL Terminal and run
    ```bash
-   pip install --upgrade gdown
+   git clone https://github.com/QLS-MiCM/Intro-to-UNIX.git
    ```
-2. **Open your Terminal or WSL Terminal (for Windows users).**
-
-3. **Navigate to the Data Directory**
-
+3. **Navigate to the Repository's Root Directory**
+   ```bash
+   cd Intro-to-UNIX
+   ```
+4. **Navigate to the Data Directory**
    From the root of the repository, change to the directory where the download script is located:
    ```bash
    cd Exercises/data
    ```
-   
-4. **Make the Download Script Executable**
-
+5. **(Optional) Install or Upgrade gdown**
+   Ensure you have Python and pip installed, then install or upgrade `gdown` by running:
+   ```bash
+   pip install --upgrade gdown
+   ```
+6. **Make the Download Script Executable**
    Set the appropriate permissions on the script:
    ```
    chmod +x download_data.sh
    ```
-
-5. **Run the download script**
+7. **Run the download script**
 
    Execute the script to download all required files into the current folder
 
