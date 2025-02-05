@@ -57,13 +57,13 @@ Before you begin the workshop, you'll need to download the required data files. 
    ```bash
    pip install --upgrade gdown
    ```
-8. **Make the Download Script Executable**
+6. **Make the Download Script Executable**
 
    Set the appropriate permissions on the script:
    ```
    chmod +x download_data.sh
    ```
-9. **Run the download script**
+7. **Run the download script**
 
    Execute the script to download all required files into the current folder
 
@@ -73,6 +73,34 @@ Before you begin the workshop, you'll need to download the required data files. 
    
 The script uses gdown to download files directly from Google Drive. You should see output indicating the progress of the downloads. Once complete, the necessary files (e.g., cars.csv, cars.tsv, countries.txt, happiness.complete.tsv, happiness.complete.txt, and happiness.csv) will be available in the Exercises/data directory.
 
-By following these steps, you'll have all the necessary data to participate in the "Intro to UNIX" workshop. If you have any issues, please verify that you have the required tools installed (such as Python and pip) and that your network allows downloads from Google Drive.
+# Obtaining the Workshop Slides
+
+### Steps to Download the slides
+
+1. **Navigate to the Slides Directory**
+
+   From the repo's root directory:
+   
+   ```bash
+   cd Slides
+   ```
+
+2. **Make the download script executable**
+
+   Set the proper permissions on the script:
+
+   ```bash
+   chmod +x download_slides.sh
+   ```
+
+3. **Run the download script**
+      
+   Execute the script to download the slides:
+   
+   ```bash
+   ./download_slides.sh
+   ```
+
+By following these steps, you'll have all the necessary data and slides to participate in the "Intro to UNIX" workshop. If you have any issues, please verify that you have the required tools installed (such as Git, Python and pip) and that your network allows downloads from Google Drive.
 
 Enjoy the workshop!
