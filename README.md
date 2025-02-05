@@ -77,7 +77,7 @@ The script uses gdown to download files directly from Google Drive. You should s
 
 ### Steps to Download the slides
 
-1. Navigate to the Slides Directory
+1. **Navigate to the Slides Directory**
 
    From the root repo directory:
    
@@ -85,7 +85,7 @@ The script uses gdown to download files directly from Google Drive. You should s
    cd Slides
    ```
 
-2. Make the download script executable
+2. **Make the download script executable**
 
    Set the proper permissions on the script:
 
@@ -93,7 +93,7 @@ The script uses gdown to download files directly from Google Drive. You should s
    chmod +x download_slides.sh
    ```
 
-3. Run the download script
+3. **Run the download script**
       
    Execute the script to download the slides:
    
