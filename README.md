@@ -79,10 +79,10 @@ The script uses gdown to download files directly from Google Drive. You should s
 
 1. **Navigate to the Slides Directory**
 
-   From the repo's root directory:
+   Change to the Slides directory:
    
    ```bash
-   cd Slides
+   cd ../../Slides
    ```
 
 2. **Make the download script executable**
