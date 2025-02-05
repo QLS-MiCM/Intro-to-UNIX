@@ -73,7 +73,7 @@ Before you begin the workshop, you'll need to download the required data files. 
    
 The script uses gdown to download files directly from Google Drive. You should see output indicating the progress of the downloads. Once complete, the necessary files (e.g., cars.csv, cars.tsv, countries.txt, happiness.complete.tsv, happiness.complete.txt, and happiness.csv) will be available in the Exercises/data directory.
 
-# Obtaining the Workshop slides
+# Obtaining the Workshop Slides
 
 ### Steps to Download the slides
 
